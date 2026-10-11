@@ -1,0 +1,7 @@
+C:\Users\user\Desktop\C#\Guessing Game\bin\Debug\Guessing Game.exe.config
+C:\Users\user\Desktop\C#\Guessing Game\bin\Debug\Guessing Game.exe
+C:\Users\user\Desktop\C#\Guessing Game\bin\Debug\Guessing Game.pdb
+C:\Users\user\Desktop\C#\Guessing Game\obj\Debug\Guessing Game.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\C#\Guessing Game\obj\Debug\Guessing Game.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\C#\Guessing Game\obj\Debug\Guessing Game.exe
+C:\Users\user\Desktop\C#\Guessing Game\obj\Debug\Guessing Game.pdb
