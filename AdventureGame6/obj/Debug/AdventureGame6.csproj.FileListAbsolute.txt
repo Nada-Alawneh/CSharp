@@ -1,0 +1,7 @@
+C:\Users\user\Desktop\C#\AdventureGame6\bin\Debug\AdventureGame6.exe.config
+C:\Users\user\Desktop\C#\AdventureGame6\bin\Debug\AdventureGame6.exe
+C:\Users\user\Desktop\C#\AdventureGame6\bin\Debug\AdventureGame6.pdb
+C:\Users\user\Desktop\C#\AdventureGame6\obj\Debug\AdventureGame6.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\C#\AdventureGame6\obj\Debug\AdventureGame6.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\C#\AdventureGame6\obj\Debug\AdventureGame6.exe
+C:\Users\user\Desktop\C#\AdventureGame6\obj\Debug\AdventureGame6.pdb
