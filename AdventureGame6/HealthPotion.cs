@@ -6,16 +6,19 @@ using System.Threading.Tasks;
 
 namespace AdventureGame6
 {
-    internal class HealthPotion : ICollectible
+    class HealthPotion : ICollectible
     {
         public string PotionName { get; set; }
 
-        public void Collect()
+        public HealthPotion(string potionName)
         {
-            Console.WriteLine("You have collected a health potion!");
+            PotionName = potionName;
         }
 
-
+        public void Collect()
+        {
+            Console.WriteLine("Health Potion collected!");
+        }
 
         public void Use(GameCharacter character, string amountText)
         {
@@ -24,16 +27,18 @@ namespace AdventureGame6
                 int amount = int.Parse(amountText);
 
                 character.Heal(amount);
-
-                Console.WriteLine($"You have used a health potion and healed {amount} health points!");
             }
             catch (FormatException)
             {
-                Console.WriteLine("Invalid amount. Please enter a valid number.");
+                Console.WriteLine();
+                Console.WriteLine(
+                    "Invalid input! Please enter a number.");
             }
             catch (OverflowException)
             {
-                Console.WriteLine("The amount is too large or too small.");
+                Console.WriteLine();
+                Console.WriteLine(
+                    "Invalid input! Please enter a number.");
             }
         }
 

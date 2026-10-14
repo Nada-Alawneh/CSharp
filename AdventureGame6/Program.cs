@@ -11,42 +11,44 @@ namespace AdventureGame6
         static void Main(string[] args)
         {
             {
-                Console.WriteLine("===== ADVENTURE GAME =====\n");
+                Console.WriteLine("===== ADVENTURE GAME =====");
+                Console.WriteLine();
 
-                
-                Warrior war = new Warrior("Alex", 80);
-                Wizard wiz = new Wizard("Luna", 70);
+                Warrior warrior = new Warrior("Alex", 80);
+                Wizard wizard = new Wizard("Luna", 70);
 
-                GameCharacter[] GC = { war, wiz };
+                List<GameCharacter> characters =
+                    new List<GameCharacter>();
 
-                foreach (var character in GC)
+                characters.Add(warrior);
+                characters.Add(wizard);
+
+                foreach (GameCharacter character in characters)
                 {
-                    Console.WriteLine($"{character.Name} enters the game!");
+                    Console.WriteLine(
+                        character is Warrior
+                        ? "Warrior " + character.Name + " enters the game!"
+                        : "Wizard " + character.Name + " enters the game!");
+
                     character.UseSpecialAbility();
                     character.TakeDamage(10);
-                    Console.WriteLine($"{character.Name}'s health: {character.Health}\n");
+
+                    if (character is Warrior)
+                    {
+                        character.Heal();
+                        character.Heal(15);
+                    }
+
+                    Console.WriteLine();
                 }
 
-                
-                war.Heal();
-                Console.WriteLine($"Alex health: {war.Health}\n");
+                HealthPotion potion =
+                    new HealthPotion("Health Potion");
 
-                war.Heal(15);
-                Console.WriteLine($"Alex health: {war.Health}\n");
+                potion.Collect();
 
-                wiz.Heal();
-                Console.WriteLine($"Luna health: {wiz.Health}\n");
-
-                wiz.Heal(15);
-                Console.WriteLine($"Luna health: {wiz.Health}\n");
-
-                
-                HealthPotion h = new HealthPotion();
-                h.PotionName = "Health Potion";
-                h.Collect();
-
-                h.Use(wiz, "15");   // RIGHT
-                h.Use(wiz, "abc");  // WRONG
+                potion.Use(wizard, "15");
+                potion.Use(wizard, "abc");
             }
         }
     }

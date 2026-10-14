@@ -7,10 +7,6 @@
       "RelativeMoniker": "D:0:0:{5535639B-7430-4D0B-8CBF-EE0F420F1025}|AdventureGame6.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5535639B-7430-4D0B-8CBF-EE0F420F1025}|AdventureGame6.csproj|C:\\Users\\user\\Desktop\\C#\\AdventureGame6\\gamecharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5535639B-7430-4D0B-8CBF-EE0F420F1025}|AdventureGame6.csproj|solutionrelative:gamecharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5535639B-7430-4D0B-8CBF-EE0F420F1025}|AdventureGame6.csproj|C:\\Users\\user\\Desktop\\C#\\AdventureGame6\\healthpotion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5535639B-7430-4D0B-8CBF-EE0F420F1025}|AdventureGame6.csproj|solutionrelative:healthpotion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -25,6 +21,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{5535639B-7430-4D0B-8CBF-EE0F420F1025}|AdventureGame6.csproj|C:\\Users\\user\\Desktop\\C#\\AdventureGame6\\warrior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5535639B-7430-4D0B-8CBF-EE0F420F1025}|AdventureGame6.csproj|solutionrelative:warrior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5535639B-7430-4D0B-8CBF-EE0F420F1025}|AdventureGame6.csproj|C:\\Users\\user\\Desktop\\C#\\AdventureGame6\\gamecharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5535639B-7430-4D0B-8CBF-EE0F420F1025}|AdventureGame6.csproj|solutionrelative:gamecharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,20 +38,21 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "GameCharacter.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\C#\\AdventureGame6\\GameCharacter.cs",
               "RelativeDocumentMoniker": "GameCharacter.cs",
               "ToolTip": "C:\\Users\\user\\Desktop\\C#\\AdventureGame6\\GameCharacter.cs",
               "RelativeToolTip": "GameCharacter.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAYwDAAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAABkAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-14T12:17:15.726Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "Warrior.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\C#\\AdventureGame6\\Warrior.cs",
               "RelativeDocumentMoniker": "Warrior.cs",
@@ -60,11 +61,12 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-14T15:34:02.066Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Wizard.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\C#\\AdventureGame6\\Wizard.cs",
               "RelativeDocumentMoniker": "Wizard.cs",
@@ -73,11 +75,12 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-14T15:36:36.847Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "ICollectible.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\C#\\AdventureGame6\\ICollectible.cs",
               "RelativeDocumentMoniker": "ICollectible.cs",
@@ -86,20 +89,22 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-14T15:40:33.903Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "HealthPotion.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\C#\\AdventureGame6\\HealthPotion.cs",
               "RelativeDocumentMoniker": "HealthPotion.cs",
               "ToolTip": "C:\\Users\\user\\Desktop\\C#\\AdventureGame6\\HealthPotion.cs",
               "RelativeToolTip": "HealthPotion.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-14T15:41:49.097Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -107,9 +112,9 @@
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\C#\\AdventureGame6\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\C#\\AdventureGame6\\Program.cs*",
-              "RelativeToolTip": "Program.cs*",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAAADMAAAABAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\user\\Desktop\\C#\\AdventureGame6\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAAAoAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-14T12:15:45.92Z",
               "IsPinned": true,
